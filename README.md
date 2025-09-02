@@ -7,7 +7,7 @@ Pathfinder - A Pathfinding Visualizer
 <br>
 
 <div align="center">
-<img src="src/assets/pathfinding-visualizer.gif" alt="Pathfinder Demo GIF" />
+<img src="src/assets/canvas.png" alt="Pathfinder Demo GIF" />
 </div>
 
 This project is an interactive web application designed to visualize classic pathfinding and maze generation algorithms in real-time. It provides a hands-on experience for understanding how these algorithms navigate through a grid, find the shortest path, and create complex mazes.
