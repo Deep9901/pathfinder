@@ -2,7 +2,8 @@ import { twMerge } from "tailwind-merge";
 import { usePathfinding } from "../hooks/usePathfinding";
 import { MAX_COLS, MAX_ROWS } from "../utils/constants";
 import { Tile } from "./Tile";
-import { MutableRefObject, useState } from "react";
+import type { MutableRefObject } from "react";
+import { useState } from "react";
 import { checkIfStartOrEnd, createNewGrid } from "../utils/helpers";
 
 export function Grid({
