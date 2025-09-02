@@ -1,0 +1,28 @@
+# Auto-detect text files and ensure they use LF (Unix) line endings in the repository.
+# On checkout, they will be converted to the OS-native line ending.
+* text=auto eol=lf
+
+# Explicitly declare files that are always text.
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.html text
+*.css text
+*.scss text
+*.json text
+*.yml text
+*.yaml text
+*.md text
+*.svg text
+
+# Explicitly declare files that are binary and should not be touched.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
